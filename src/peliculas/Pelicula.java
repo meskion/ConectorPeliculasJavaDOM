@@ -82,6 +82,7 @@ public class Pelicula {
 			if (s != null)
 				res += s;
 		}
+		res += "\n ____________________";
 
 		return res;
 	}
