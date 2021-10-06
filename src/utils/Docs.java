@@ -69,7 +69,7 @@ public class Docs {
 			if (node.getNodeType() == Node.ELEMENT_NODE) {
 				// procesamos el nodo libro en un string
 				datosNodos = procesarPelis(node);
-				// construimos un string con todos los libros del xml
+				// construimos un string con todas las peliculas del xml
 				salida += datosNodos.verbose();
 			}
 		}
